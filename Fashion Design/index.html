@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+            padding: 0%;
+            margin: 0%;
+        }
+        .nav-bar
+        {
+            background-color: white;
+            display: flex;
+            padding: 20px;
+            margin-left: 20px;      
+
+        }
+        .Company_Name
+        {
+            width: 50%;
+            margin-left: 50px;
+        }
+        .nav
+        {
+            width: 50%;
+            position: relative;
+            top: 10px;
+        }
+        .nav ul li
+        {
+            display: inline-block;
+        }
+        .nav ul li a
+        {
+            list-style: none;
+            text-decoration: none;
+            padding: 10px;
+            font-size: 18px;
+            color: black;
+            border-radius: 5px;
+        }
+        .nav ul li a:hover
+        {
+            color: white;
+            background-color: #E34A4E;
+            transition: .5s;
+
+        }
+        #shop
+        {
+            color: #E34A4E;
+        }
+        #back-img
+        {
+            background-image: url('./designer.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 90vh;
+            width: 100%;
+            
+        }
+        .collect
+        {
+            color: rgb(230, 49, 49);
+            font-family: Lucida Handwriting;
+            font-size: 40px;
+            padding-left: 150px;
+            padding-top: 130px;
+        }
+        #small-letter
+        {
+            font-size: 15px;
+        }
+        .shop-button button
+        {
+            font-size: 20px;
+            width: 100px;
+            border-radius: 5px;
+            background-color: #E34A4E;
+            color: white;
+            border-color: #E34A4E;
+        }
+    </style>
+    <title>Esha Designer</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="nav-bar">
+                <div class="Company_Name">
+                    <h1>ESHA<span id="shop">SHOP</span></h1>
+                </div>
+                <div class="nav">
+                    <ul>
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">SHOP</a></li>
+                        <li><a href="#">PROMOTION</a></li>
+                        <li><a href="#">BLOG</a></li>
+                        <li><a href="#">CONTACT</a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row" id="back-img">
+            <div class="collect">
+                <p id="small-letter">Summet/Winter Collection 2022</p>
+                <p>Get up to 30% Off <br> New Arrivals </p>
+                <div class="shop-button">
+                    <button type="submit">Shop</button>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>
